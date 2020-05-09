@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/themeChange"
+        android:title="Change Theme"
+        android:icon="@drawable/ic_wb_sunny_black_24dp"
+        app:showAsAction="always"/>
+    <item android:id="@+id/chFont"
+        android:title="Change Font">
+        <menu>
+            <item android:id="@+id/fontMedium"
+                android:title="Medium"/>
+            <item android:id="@+id/fontLarge"
+                android:title="Large"/>
+        </menu>
+    </item>
+</menu>
